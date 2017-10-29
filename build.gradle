@@ -28,5 +28,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-actuator-docs')
 	compile('org.springframework.boot:spring-boot-starter-freemarker')
 	compile('org.springframework.boot:spring-boot-starter-web')
+
+	compile('org.slf4j:slf4j-api:1.7.25')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
